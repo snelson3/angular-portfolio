@@ -1,15 +1,15 @@
 {
-  "name": "Route Planner",
-  "description": "A route planner for speedruns",
+  "name": "Angular Portfolio",
+  "description": "A simple angular application to display a portfolio of work online",
   "version": "0.0.0",
-  "homepage": "https://github.com/snelson3/route-planner",
+  "homepage": "https://github.com/snelson3/angular-portfolio",
   "license": "MIT",
   "private": true,
   "dependencies": {
     "angular": "~1.4.0",
-    "angular-route": "~1.4.0",
+    "angular-bootstrap": "0.13.3",
     "angular-loader": "~1.4.0",
-    "angular-mocks": "~1.4.0",
+    "bootstrap": "~3.2.x",
     "html5-boilerplate": "~5.2.0",
     "bootstrap": "~3.3.5"
   }

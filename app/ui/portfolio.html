@@ -1,0 +1,24 @@
+<div class="col-md-8">
+
+</div>
+
+<div class="col-md-2"></div>
+<div class="col-md-8">
+
+<table ng-repeat="project in projects | orderBy:orderProp">
+	<thead></thead>
+	<tbody>
+		<tr>
+			<td>{{project.image}}</td>
+			<td><h1>{{project.title}}</h1></td>
+		</tr>
+		<tr>
+			<td>{{project.description}}</td>
+		</tr>
+	</tbody>
+<div> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </div>
+</table>
+
+<div class="col-md-2"></div>
+
+<div class="col-md-9"></div>
