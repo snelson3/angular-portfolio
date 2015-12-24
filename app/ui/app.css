@@ -33,15 +33,7 @@
   color: #FFFFFF;
 }
 
-.red {
-  color: #FF4747;
-}
-
-.blue {
-  color: #4805FF;
-}
-
-.gold {
-  
-  color: #FFD82B;
+.img-project {
+  width: 480px;
+  height:360px;
 }

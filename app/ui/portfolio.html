@@ -5,19 +5,22 @@
 <div class="col-md-2"></div>
 <div class="col-md-8">
 
-<table ng-repeat="project in projects | orderBy:orderProp">
+<div ng-repeat="project in projects | orderBy:orderProp">
+<table>
 	<thead></thead>
 	<tbody>
 		<tr>
-			<td>{{project.image}}</td>
+      <td><img ng-src="data/images/{{project.image}}" class="img-project"></img></td>
 			<td><h1>{{project.title}}</h1></td>
 		</tr>
 		<tr>
 			<td>{{project.description}}</td>
+			<td>The source code can be found at {{project.source}}</td>
 		</tr>
 	</tbody>
 <div> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </div>
 </table>
+</div>
 
 <div class="col-md-2"></div>
 

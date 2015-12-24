@@ -12,17 +12,21 @@
   <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
   <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js" type="text/javascript"></script>
 </head>
-<body ng-class="{body: 1 == 1}" style="background-color:#000000">
+<body ng-class="{body: 1 == 1}" style="background-color:#000000" ng-controller="mainController as main">
 
 <div>I am Sam Nelson, Hire me.</div>
 
+<div class="container">
   <div ng-view></div>
+</div>
 
 </div>
   <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
   <script src="bower_components/angular/angular.js" type="text/javascript"></script>
+  <script src="bower_components/angular-route/angular-route.js" type="text/javascript"></script>
   <script src="ui/app.js" type="text/javascript"></script>
+  <script src="ui/main.controller.js" type="text/javascript"></script>
   <script src="ui/data.controller.js" type="text/javascript"></script>
   <script src="ui/data.service.js" type="text/javascript"></script>
 </body>
