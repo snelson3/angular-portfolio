@@ -1,7 +1,10 @@
 portfolio.controller('dataController', ['$scope','$http', 'dataService',
   function($scope,$http,dataService) {
 
-    dataService.getProjects().success(function(data) {
-      $scope.projects = data;
-    });
+    $scope.getData = function(url) {
+      dataService.getProjects(url).success(function(data) {
+        $scope.projects = data;
+    });};
+
+
   }]);
