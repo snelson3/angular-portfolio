@@ -11,12 +11,12 @@
 	<thead></thead>
 	<tbody>
 		<tr>
-      <td><img ng-src="data/images/{{project.image}}" class="img-project"></img></td>
+      <td ng-hide="{{project.image==''}}"><img ng-src="data/images/{{project.image}}" class="img-project"></img></td>
 			<td><h1>{{project.title}}</h1></td>
 		</tr>
 		<tr>
 			<td>{{project.description}}</td>
-			<td>The source code can be found at {{project.source}}</td>
+			<td>The source code can be found <a href="{{project.source}}">here</a> </td>
 		</tr>
 	</tbody>
 <div> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </div>
