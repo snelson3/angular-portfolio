@@ -1,33 +1,25 @@
 <div ng-init="getData($route.current.url)">
-<div class="col-md-8" >
 
-</div>
 
-<div class="col-md-2"></div>
-<div class="col-md-8">
+<div class="col-md-12">
 
 <div ng-repeat="project in projects | orderBy:orderProp">
 <table>
 	<thead></thead>
 	<tbody>
 		<tr>
-      <td ng-hide="{{project.image==''}}"><img ng-src="data/images/{{project.image}}" class="img-project"></img></td>
 			<td><h1>{{project.title}}</h1></td>
+      <td ng-hide="{{project.image==''}}"><img ng-src="data/images/{{project.image}}" class="img-project"></img></td>
 		</tr>
 		<tr>
-			<td>{{project.description}}</td>
-			<td>The source code can be found <a href="{{project.source}}">here</a></td>
+			<td>{{project.description}} The source code can be found <a href="{{project.source}}">here</a>.</td>
 		<!--	<td><div>The source code can be found <a href="{{project.source}}">here</a></div>
 			 		<div ng-hide="{{project.link=''}}"> My research paper can be found <a href="{{project.link}}">here</a></div></td> !-->
-
 		</tr>
 	</tbody>
-<div> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </div>
+<div class="col-md-12 seperator"> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </div>
 </table>
 </div>
 
-<div class="col-md-2"></div>
-
-<div class="col-md-9"></div>
 
 </div>
