@@ -10,8 +10,10 @@
 	<p><h3>Contact me:</h3></p>
 
 	<div>-{{projects.email}}</div>
-	<div ng-repeat="m in projects.social_media">
-		<a href="{{m.link}}" target="_blank">-{{m.name}}</a>
+	<!--Icons are taken from https://github.com/adamfairhead/webicons !-->
+	<div ng-repeat="m in projects.social_media" class="s_media">
+		<a ng-src={{m.image}} href="{{m.link}}" target="_blank">
+			<img ng-src="{{m.image}}" alt=" -{{m.name}}"></a>
 	</div>
 </div>
 
@@ -21,7 +23,7 @@
 
 	<div><h2>Previous Jobs</h2></div>
 
-	<div ng-repeat="job in projects.work_experience">
+	<div ng-repeat="job in projects.work_experience" class="job">
 		<b><i>
 		<div class="col-md-3">{{job.company_name}}</div>
 		<div class="col-md-3">{{job.position}}</div>
@@ -48,7 +50,7 @@
 
 <div class="col-md-12">
 	<div><h2>Activities</h2></div>
-	<div ng-repeat="activity in projects.activities">
+	<div ng-repeat="activity in projects.activities" class="activity">
 		<b><i>
 		<div class="col-md-6">{{activity.name}}</div>
 		<div class="col-md-6">{{activity.date}}</div>

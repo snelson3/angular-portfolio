@@ -30,7 +30,8 @@
 }
 
 .body {
-  color: #FFFFFF;
+  background-color: #444444;
+  color: #EEEEEE;
 }
 
 .img-project {
@@ -47,6 +48,23 @@
 }
 
 .src_link{
-  color:white
-  size:16px
+  color:white;
+  size:16px;
+}
+
+.job{
+  padding-bottom:100px;
+}
+
+.activity{
+  padding-bottom:40px;
+}
+
+.s_media{
+  padding-top:10px;
+}
+
+.lnk{
+  color: #98E357;
+  padding-bottom: 3000px;
 }
