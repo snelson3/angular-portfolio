@@ -5,5 +5,5 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/school', {templateUrl: 'ui/portfolio.html', controller: 'dataController', url:'school'});
   $routeProvider.when('/ml', {templateUrl: 'ui/portfolio.html', controller: 'dataController', url: 'ml'});
   $routeProvider.when('/resume', {templateUrl: 'ui/resume.html', controller: 'dataController', url: 'resume'});
-  $routeProvider.otherwise({redirectTo: 'portfolio'});
+  $routeProvider.otherwise({redirectTo: 'resume'});
 }]);
