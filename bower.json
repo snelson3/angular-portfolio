@@ -6,12 +6,15 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "angular": "~1.4.0",
+    "angular": "1.4.14",
     "angular-bootstrap": "0.13.3",
     "angular-loader": "~1.4.0",
     "angular-route": "1.4.x",
     "bootstrap": "~3.2.x",
     "html5-boilerplate": "~5.2.0",
-    "bootstrap": "~3.3.5"
+    "angular-marked": "1.2.2"
+  },
+  "resolutions": {
+    "angular": "1.4.14"
   }
 }

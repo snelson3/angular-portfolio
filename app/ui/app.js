@@ -1,5 +1,4 @@
-var portfolio = angular.module('portfolio', ['ngRoute'
-]).
+var portfolio = angular.module('portfolio', ['ngRoute', 'hc.marked']).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/portfolio', {templateUrl: 'ui/portfolio.html', controller: 'dataController', url:'projects'});
   $routeProvider.when('/school', {templateUrl: 'ui/portfolio.html', controller: 'dataController', url:'school'});

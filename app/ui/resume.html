@@ -1,90 +1,95 @@
 <div ng-init="getData($route.current.url)">
 
+    <div class="col-md-12">
 
-<div class="col-md-12">
+        <div class="col-md-4"></div>
 
-<div class="col-md-4"></div>
+        <div class="col-md-4">
+            <p>
+            <h1>{{projects.name}}</h1></p>
+            <p>
+            <h3>Contact me:</h3></p>
 
-<div class="col-md-4">
-	<p><h1>{{projects.name}}</h1></p>
-	<p><h3>Contact me:</h3></p>
+            <div>-{{projects.email}}</div>
+            <!--Icons are taken from https://github.com/adamfairhead/webicons !-->
+            <div ng-repeat="m in projects.social_media" class="s_media">
+                <a ng-src={{m.image}} href="{{m.link}}" target="_blank">
+                    <img ng-src="{{m.image}}" alt=" -{{m.name}}"></a>
+            </div>
+        </div>
 
-	<div>-{{projects.email}}</div>
-	<!--Icons are taken from https://github.com/adamfairhead/webicons !-->
-	<div ng-repeat="m in projects.social_media" class="s_media">
-		<a ng-src={{m.image}} href="{{m.link}}" target="_blank">
-			<img ng-src="{{m.image}}" alt=" -{{m.name}}"></a>
-	</div>
-</div>
+        <div class="col-md-4"></div>
 
-<div class="col-md-4"></div>
+        <div class="col-md-12">
 
-<div class="col-md-12">
+            <div><h2>Previous Jobs</h2></div>
 
-	<div><h2>Previous Jobs</h2></div>
+            <div ng-repeat="job in projects.work_experience" class="job">
+                <b><i>
+                    <div class="col-md-3">{{job.company_name}}</div>
+                    <div class="col-md-3">{{job.position}}</div>
+                    <div class="col-md-3">{{job.time_worked}}</div>
+                    <div class="col-md-3">{{job.location}}</div>
+                </i>
+                </b>
 
-	<div ng-repeat="job in projects.work_experience" class="job">
-		<b><i>
-		<div class="col-md-3">{{job.company_name}}</div>
-		<div class="col-md-3">{{job.position}}</div>
-		<div class="col-md-3">{{job.time_worked}}</div>
-		<div class="col-md-3">{{job.location}}</div>
-		</i>
-		</b>
+                <ul>
+                    <li class="col-md-12" ng-repeat="duty in job.duties">{{duty}}</li>
+                </ul>
 
-		<ul><li class="col-md-12" ng-repeat="duty in job.duties">{{duty}}</li></ul
+            </div>
 
-	</div>
+        </div>
 
+        <div class="col-md-12">
+            <div><h2>Education</h2></div>
 
-</div>
+            <div ng-repeat="degree in projects.education">
+                <div><h4>{{degree.school_name}}</h4></div>
+                <div>{{degree.degree}}</div>
+            </div>
+        </div>
 
-<div class="col-md-12">
-	<div><h2>Education</h2></div>
+        <div class="col-md-12">
+            <div><h2>Activities</h2></div>
+            <div ng-repeat="activity in projects.activities" class="activity">
+                <b><i>
+                    <div class="col-md-6">{{activity.name}}</div>
+                    <div class="col-md-6">{{activity.date}}</div>
+                </i></b>
+                <ul>
+                    <li class="col-md-12">{{activity.duties}}</li>
+                </ul>
+            </div>
+        </div>
 
-	<div ng-repeat="degree in projects.education">
-		<div><h4>{{degree.school_name}}</h4></div>
-		<div>{{degree.degree}}</div>
-	</div>
-</div>
+        <div class="col-md-12">
+            <div><h2>Languages Known:</h2></div>
+            <ul>
+                <div ng-repeat="language in projects.other.languages_known">
+                    <li>{{language}}</li>
+                </div>
+            </ul>
+        </div>
 
-<div class="col-md-12">
-	<div><h2>Activities</h2></div>
-	<div ng-repeat="activity in projects.activities" class="activity">
-		<b><i>
-		<div class="col-md-6">{{activity.name}}</div>
-		<div class="col-md-6">{{activity.date}}</div>
-		</i></b>
-		<ul><li class="col-md-12">{{activity.duties}}</li></ul>
-	</div>
-</div>
+        <div class="col-md-12">
+            <div><h2>Tools I'm Familiar With:</h2></div>
+            <ul>
+                <div ng-repeat="tool in projects.other.tools">
+                    <li>{{tool}}</li>
+                </div>
+            </ul>
+        </div>
 
-<div class="col-md-12">
-	<div><h2>Languages Known:</h2></div>
-	<ul>
-	<div ng-repeat="language in projects.other.languages_known">
-		<li>{{language}}</li>
-	</div>
-	</ul>
-</div>
+        <div class="col-md-12">
+            <div><h2>What I'm Currently Working On:</h2></div>
+            <ul>
+                <div ng-repeat="project in projects.other.currently_learning">
+                    <li marked="project"></li>
+                </div>
+            </ul>
+        </div>
 
-<div class="col-md-12">
-	<div><h2>Tools I'm Familiar With:</h2></div>
-	<ul>
-	<div ng-repeat="tool in projects.other.tools">
-		<li>{{tool}}</li>
-	</div>
-	</ul>
-</div>
-
-<div class="col-md-12">
-	<div><h2>What I'm Currently Working On:</h2></div>
-	<ul>
-	<div ng-repeat="project in projects.other.currently_learning">
-		<li>{{project}}</li>
-	</div>
-	</ul>
-</div>
-
+    </div>
 
 </div>
