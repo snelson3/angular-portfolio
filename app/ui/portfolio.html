@@ -1,26 +1,30 @@
 <div ng-init="getData($route.current.url)">
 
-<div><h1>My Work</h1></div>
+    <div class="col-md-12">
 
-<div class="col-md-12">
+        <div ng-repeat="project in projects">
 
-<div ng-repeat="project in projects | orderBy:orderProp">
+            <div class="col-md-6">
+                <table>
+                    <tr>
+                        <td><h1><a class="title" ng-href="{{project.link}}" target="_blank">{{project.title}}</a></h1></td>
+                    </tr>
+                    <tr>
+                        <td><a ng-href="{{project.source}}" target="_blank" class="lnk">Source code</a></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="col-md-6" ng-hide="project.image==''">
+                <img ng-src="data/images/{{project.image}}" class="img-project" />
+            </div>
+
+            <div class="col-md-12">{{project.description}}</div>
+            <hr style="color:white" />
+
+        </div>
 
 
-<div class="col-md-6">
-	<table>
-	<tr><td><h1><a class="title" href="{{project.link}}" target="_blank">{{project.title}}</a></h1></td></tr>
-	<tr><td><a href="{{project.source}}" target="_blank" class="lnk">Source code</a></td></tr>
-	</table>
-</div>
-
-
-<div class="col-md-6" ng-hide="{{project.image==''}}"><img ng-src="data/images/{{project.image}}" class="img-project"></img></div>
-
-<div class="col-md-12">{{project.description}}</div>
-<div class="col-md-12 seperator"> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </div>
-
-</div>
-
+    </div>
 
 </div>
