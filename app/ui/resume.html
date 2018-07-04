@@ -5,10 +5,17 @@
         <div class="col-md-4"></div>
 
         <div class="col-md-4">
-            <p>
-            <h1>{{projects.name}}</h1></p>
-            <p>
-            <h3>Contact me:</h3></p>
+            <div class="col-md-12">
+                <h1>{{projects.name}}</h1>
+            </div>
+
+            <div ng-if="projects.image">
+                <img ng-src="data/images/{{projects.image}}" class="img-profile" />
+            </div>
+
+            <div>
+                <h3>Contact me:</h3>
+            </div>
 
             <div>-{{projects.email}}</div>
             <!--Icons are taken from https://github.com/adamfairhead/webicons !-->

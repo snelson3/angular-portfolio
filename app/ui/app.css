@@ -39,6 +39,12 @@
   height:360px;
 }
 
+/* 3264 x 2448 */
+.img-profile {
+  width: 204px;
+  height: 153px;
+}
+
 .seperator {
   size: 14px;
 }
