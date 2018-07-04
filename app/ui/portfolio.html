@@ -7,10 +7,10 @@
             <div class="col-md-6">
                 <table>
                     <tr>
-                        <td><h1><a class="title" ng-href="{{project.link}}" target="_blank">{{project.title}}</a></h1></td>
+                        <td><h1><a class="title" ng-href="{{project.source}}" target="_blank">{{project.title}}</a></h1></td>
                     </tr>
-                    <tr>
-                        <td><a ng-href="{{project.source}}" target="_blank" class="lnk">Source code</a></td>
+                    <tr ng-if="project.link ">
+                        <td><a ng-href="{{project.link}}" target="_blank" class="lnk">{{project.link_name ? project.link_name : 'link'}}</a></td>
                     </tr>
                 </table>
             </div>
@@ -20,7 +20,6 @@
             </div>
 
             <div class="col-md-12">{{project.description}}</div>
-            <hr style="color:white" />
 
         </div>
 

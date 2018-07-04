@@ -12,10 +12,10 @@
 
             <div>-{{projects.email}}</div>
             <!--Icons are taken from https://github.com/adamfairhead/webicons !-->
-            <div ng-repeat="m in projects.social_media" class="s_media">
+            <span ng-repeat="m in projects.social_media" class="s_media">
                 <a ng-src={{m.image}} href="{{m.link}}" target="_blank">
                     <img ng-src="{{m.image}}" alt=" -{{m.name}}"></a>
-            </div>
+            </span>
         </div>
 
         <div class="col-md-4"></div>
