@@ -7,7 +7,12 @@
             <div class="col-md-6">
                 <table>
                     <tr>
-                        <td><h1><a class="title" ng-href="{{project.source}}" target="_blank">{{project.title}}</a></h1></td>
+                        <td>
+                            <h1>
+                                <a ng-if="project.source" class="title" ng-href="{{project.source}}" target="_blank">{{project.title}}</a>
+                                <span ng-if="!project.source">{{project.title}}</span>
+                            </h1>
+                        </td>
                     </tr>
                     <tr ng-if="project.link ">
                         <td><a ng-href="{{project.link}}" target="_blank" class="lnk">{{project.link_name ? project.link_name : 'link'}}</a></td>
