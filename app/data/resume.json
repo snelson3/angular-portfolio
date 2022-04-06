@@ -19,18 +19,14 @@
             "time_worked": "8/2018-Present",
             "location": "Remote",
             "duties": [
-                "Work with small team (coming from previous job) to build a cloud application for data scientists",
-                "Help with fixes and improvements to the python backend for the product when available",
-                "Manage Helm charts for product developed by small team",
-                "Manage Helm charts for 3rd party tools used in conjunction with product developed by team",
-                "Deploy cloud application for data scientists to Kubernetes clusters",
-                "Deploy and maintain managed Kubernetes clusters in AWS, Azure, and Google environments",
-                "Keep up to date installation instructions for the product, and help deployment teams deploy and maintain our product",
+                "Work with small team (from previous job) to build a cloud application for data scientists",
+                "Create and manage Helm charts for the product developed by small team, along with charts for 3rd party integrations",
+                "Deploy and maintain Kubernetes clusters in AWS, Azure, and Google environments, for both QA and production uses",
+                "Keep up to date installation instructions, and help internal network teams deploy and maintain our product",
                 "Develop integration with SAML SSO environments, using Shibboleth Service Provider",
-                "Manage git repositories used by the team, which spans 6-7 repos and uses submodules",
-                "Manage Jenkins CI/CD for development of teams application, including automated running of unit/integration tests, and scans of docker containers for CVEs",
-                "Manage release cycle of product, making sure all blockers get resolved before releasing new version, and working with the teams that have our product in production to roll out the upgrade",
-                "Maintain docker registry of images used by product, and keeping them up to date"
+                "Manage Git and Jenkins CI/CD for development of our product, including automated running of unit/integration tests, and scans of docker containers for CVEs",
+                "Manage release cycle of product, making sure all blockers get resolved before releasing new version, and working to get the upgrade rolled out in production environments",
+                "Help with fixes and improvements to the python backend when available, mostly around the features related to automated Helm installations of different tools"
             ]
         },
         {
