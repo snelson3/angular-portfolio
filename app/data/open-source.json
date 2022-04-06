@@ -1,0 +1,44 @@
+[
+    {
+        "title": "ticdat",
+        "image": "",
+        "source": "https://github.com/ticdat/ticdat/",
+        "description": "ticdat is a Python package that provides lightweight, ORM style functionality around either a dict-of-dicts or pandas.DataFrame representation of tables. At Opalytics, I helped with development of Ticdat, adding integrations with modeling languages OPL and Lingo. Since Ticdat has moved fully on it's own, I am the PyPi maintainer, responsible for uploading new stable versions to PyPi."
+    },
+    {
+        "title": "Kingdom Hearts 2 Randomizer",
+        "image": "kh2randomizer.png",
+        "source": "https://github.com/tommadness/KH2Randomizer",
+        "description": "A randomizer for Kingdom Hearts 2, built by Tommadness, and I in Python (with other contributors post release). A randomizer is a type of mod for a game that randomly reorganizing different categories of entities, creating a unique play experience each time. My contributions to the randomizer are mostly the enemy/boss randomization logic (see khbr below), and large portions of the music randomization. I occasionally add and help out with other features as necessary"
+    },
+    {
+        "title": "KHPC mods manager bridge",
+        "image": "modsmanagerbridge.png",
+        "source": "https://github.com/thundrio-kh/khpc-modsmanager-bridge",
+        "description": "A simple python application to manage converting Kingdom Hearts 2 mods from the main format used for the PS2 game (the OpenKH Mod Manager created by Xeeynamo), into being usable by PC. This is a fairly straightforward process of copying modified files around to different folders, and running a command line patch program to patch the PC asset packages. I chose Gooey as the UI because of how simple and quick it is to set up a functional UI"
+    },
+    {
+        "title": "OpenKH",
+        "image": "modsmanager.png",
+        "source": "https://github.com/Xeeynamo/OpenKh",
+        "description": "A centralized repository of knowledge and tools related to reverse engineering the Kingdom Hearts series of games. I have provided documentation on reversing different file formats for both Kingdom Hearts 2 and Kingdom Hearts Dream Drop Distance. I have also provided additional features and documentation for the OpenKH Mod Manager."
+    },
+    {
+        "title": "KHBR",
+        "image": "",
+        "source": "https://github.com/thundrio-kh/khbr",
+        "description": "A python library that is the backend of the enemy portion of the Kingdom Hearts 2 Randomizer (see above). The OpenKH project on github (link) makes the actual act of swapping entities around simple, however there needs to be a large amount of logic in place to prevent crashes from unexpected randomizations (Kingdom Hearts 2 was originally made for the Playstation 2, and pushed the console to it's limits, so it is very easy to use up too much memory when randomizing enemies). I do this by managing two large yaml files with information on each enemy in the game, and each encounter in the game, that have different attributes based on how they need to be treated. Then the main logic is fairly abstracted away. I think it would be fairly straightforwrad to adapt this codebase to work for a different game, but I have not had the opportunity to try yet."
+    },
+    {
+        "title": "Angular Portfolio",
+        "image": "",
+        "source": "https://github.com/snelson3/angular-portfolio",
+        "description": "This is an AngularJS and Bootstrap web application meant to be a template for creating programmer portfolios (my portfolio is built on this application). All of the user's data is kept in JSON files, and angular repeaters are used to display a large amount of data with minimal code. The application was built to suit my needs for a portfolio, but it can be easily modified to fit any individual style."
+    },
+    {
+        "title": "Art Gallery",
+        "image": "gallery.png",
+        "source": "https://gitlab.com/erins-illustrations/art-gallery",
+        "description": "I helped create an online portfolio for my friends artwork, including a page that had a paypal integration for sales of christams cards. Taught her the basics of web design and set up a simple Gitlab CI/CD pipeline so she could commit new artwork to the repo and have her site update in real time."
+    }
+]

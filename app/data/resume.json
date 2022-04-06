@@ -1,0 +1,131 @@
+{
+    "name": "Sam Nelson",
+    "image": "climbing.jpg",
+    "social_media": [
+        {
+            "image": "css/webicon-github.png",
+            "link": "https://github.com/snelson3"
+        },
+        {
+            "image": "css/webicon-linkedin.png",
+            "link": "https://www.linkedin.com/in/sam-nelson-841810101/"
+        }
+        
+    ],
+    "work_experience": [
+        {
+            "company_name": "Accenture Inc",
+            "position": "Software Product Business Architecture Associate Manager",
+            "time_worked": "8/2018-Present",
+            "location": "Remote",
+            "duties": [
+                "Work with small team (coming from previous job) to build a cloud application for data scientists",
+                "Help with fixes and improvements to the python backend for the product when available",
+                "Manage Helm charts for product developed by small team",
+                "Manage Helm charts for 3rd party tools used in conjunction with product developed by team",
+                "Deploy cloud application for data scientists to Kubernetes clusters",
+                "Deploy and maintain managed Kubernetes clusters in AWS, Azure, and Google environments",
+                "Keep up to date installation instructions for the product, and help deployment teams deploy and maintain our product",
+                "Develop integration with SAML SSO environments, using Shibboleth Service Provider",
+                "Manage git repositories used by the team, which spans 6-7 repos and uses submodules",
+                "Manage Jenkins CI/CD for development of teams application, including automated running of unit/integration tests, and scans of docker containers for CVEs",
+                "Manage release cycle of product, making sure all blockers get resolved before releasing new version, and working with the teams that have our product in production to roll out the upgrade",
+                "Maintain docker registry of images used by product, and keeping them up to date"
+            ]
+        },
+        {
+            "company_name": "Opalytics Inc",
+            "position": "Software Developer",
+            "time_worked": "6/2016-8/2018",
+            "location": "Eugene, OR",
+            "duties": [
+                "Develop new features and make general improvements to the application's Angular JS based UI",
+                "Responsible for deploying new builds of the application to public servers",
+                "Create and manage configuration of private site portals for individual clients",
+                "Work with the lead sysadmin to fix the internal/public sites when problems come up",
+                "Maintain the PyPI release of the company's data library Ticdat",
+                "Develop helper functions to integrate Ticdat with the OPL and Lingo modeling languages",
+                "Help out in other areas of the code base as needed"
+            ]
+        },
+        {
+            "company_name": "Opalytics Inc",
+            "position": "Programming Intern",
+            "time_worked": "4/2014-9/2015",
+            "location": "Eugene, OR",
+            "duties": [
+                "Create and maintain testing suites for the UI's AngularJS based frontend",
+                "Work with the lead UI dev to prototype and debug the UI during Agile development"
+            ]
+        },
+        {
+            "company_name": "UO Knight Library",
+            "position": "Library Student Assistant",
+            "time_worked": "11/2012-6/2016",
+            "location": "Eugene, OR",
+            "duties":
+              [
+                "Manage and close the library at night when full time staff are not working",
+                "Assist library patrons with checking materials in and out of the library",
+                "Lead other students in shelving and maintaining the library’s bookshelves"
+              ]
+          }
+    ],
+    "education": [
+        {
+            "school_name": "University of Oregon",
+            "degree": "B.S. Computer Information Science received June 2016"
+        }
+    ],
+    "activities": [
+        {
+            "name": "Bouldering / Rock Climbing",
+            "date": "2021",
+            "duties": "My newest hobby, I have fallen in love with the purity involved in climbing."
+        },
+        {
+            "name": "Developer for Kingdom Hearts 2 Randomizer",
+            "date": "2021",
+            "duties": "One of the core developers for the main Kingdom Hearts 2 Randomizer mod (see open-source page), which is actively used by hundreds of people."
+        },
+        {
+            "name": "TEALS Volunteer TA",
+            "date": "2017",
+            "duties": "Work with 3 other volunteers to teach a high school intro to computer science class, using Snap and Python"
+        },
+        {
+            "name": "UO Smash Club Vice President",
+            "date": "2015",
+            "duties": "Manage week to week operations, as well as help organize 200+ person tournaments once a term"
+        }
+    ],
+    "other": {
+        "languages_known": [
+            "Python",
+            "Javascript && AngularJS",
+            "Bash",
+            "C++",
+            "C#",
+            "Java"
+        ],
+        "currently_learning": [
+            "Reverse Engineering: Continuing my various projects modding Kingdom Hearts 2 will naturally lead me to gaining more reverse engineering skills.",
+            "Go: Writing an [idle game](https://github.com/snelson3/card-idler-go) to learn Go in a freeform, low stress way.",
+            "Rust: Looking for time and an opportunity to learn Rust, potentially a Chip8 or Gameboy emulator."
+        ],
+        "tools": [
+            "Docker",
+            "Kubernetes - setup and administration of unmanaged and managed (EKS, AKS, GKE) clusters",
+            "Linux - various installation/administration tools for Debian and Redhat flavors, such as (examples)",
+            "Jenkins",
+            "Git",
+            "Gitlab CI/CD",
+            "AWS - Route53, EC2, EKS, S3, IAM, VPC, SES, maybe other services?",
+            "Azure - Active Directory, AKS, Networking, Blob Storage, other services?",
+            "Google Cloud - GKE? Maybe should leave off",
+            "Saml SSO 2.0 Protocol",
+            "Shibboleth, SP and IDP",
+            "Unity"
+        ]
+    }
+}

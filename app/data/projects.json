@@ -1,0 +1,38 @@
+[
+    {
+        "title": "kh2lib",
+        "image": "",
+        "source": "https://github.com/snelson3/kh2lib",
+        "description": "A library containing many utilities and jupyter notebooks I use when reverse engineering games in the Kingdom Hearts series (mostly Kingdom Hearts 2). The most useful functinoality of this library are the helper functions for randomly swapping a group of files (lets say files I think are related to cutscenes, but am not sure), so I can easily see if that does anything interesting. It is published to PyPi."
+    },
+    {
+        "title": "OOT Randomizer Helm Chart",
+        "image": "",
+        "link": "DOESNOTEXISTYET",
+        "description": "A Helm chart for the Ocarina of Time Randomizer (linked here). I built the Helm chart to make it easier for me to run a local version of the OOT Randomizer, so I could work on plugging in my OOT Enemy Randomizer (see below), which I wrote originally with no intention of being compatible with the main OOT randomizer"  
+    },
+    {
+        "title": "OOT Enemy Randomizer",
+        "image": "",
+        "source": "https://github.com/snelson3/OOT-Rando",
+        "description": "Written in Python, randomizes the enemies in Zelda Ocarina of Time. Not fully tested or functional yet (the code works, but there needs to be more testing and fixes for edge cases put in), but it edits the games ROM in place, using Python classes to create representations of the data that is easy to manipulate. If I continue work on this, I may switch it to use the framework from KHBR, to make it easier to manage the needs of specific enemies"
+    },
+    {
+        "title": "Pokemon Red Randomizer",
+        "image": "",
+        "source": "https://github.com/snelson3/pokemon-red-proc-randomizer",
+        "description": "The first randomizer I built, a Pokemon Red randomizer that edits the disassembled Pokemon Red code (repo here), and then builds the ROM. The main functionality I was adding was the ability to create a procedurally generated map, but I did not get farther than randomizing the position of each overworld map (which I did not put any protection in place so it is easy to walk off the map)."
+    },
+    {
+        "image": "uosmash.png",
+        "title": "UO Smash Club",
+        "description": "A website created using AngularJS that hosts rankings/records of the UO Smash Club’s weekly tournaments, as well as other information such as tournament rules and how to get in touch with other people who play the Super Smash Bros. series of games competitively. This project was originally used as a way to get practice using Angular, and takes full advantage of using the Angular specific repeater tags to easily display varying amounts of data.",
+        "source": "https://github.com/snelson3/uosmashclub"
+    },
+    {
+        "image": "",
+        "title": "UO Smash Rankings",
+        "description": "A collection of python scripts used to rank players who participate in Super Smash Bros. tournaments, for use with the University of Oregon Smash Club Website. This project consists of two parts, the parsers, and the actual ranking program. There are two different parser scripts, that are able to parse tournaments run using either TIOPro or Challonge into my own format. The ranking program then uses a Python Trueskill library to rank players and create records of the matches that are stored in JSON files. These rankings are then displayed to the public on the UO Smash Club website.",
+        "source": "https://github.com/snelson3/uosmashrankings"
+    }
+]

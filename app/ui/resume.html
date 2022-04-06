@@ -17,7 +17,7 @@
                 <h3>Contact me:</h3>
             </div>
 
-            <div>-{{projects.email}}</div>
+            <div ng-if="projects.email">-{{projects.email}}</div>
             <!--Icons are taken from https://github.com/adamfairhead/webicons !-->
             <span ng-repeat="m in projects.social_media" class="s_media">
                 <a ng-src={{m.image}} href="{{m.link}}" target="_blank">
@@ -56,7 +56,7 @@
                 <div>{{degree.degree}}</div>
             </div>
         </div>
-
+<!-- 
         <div class="col-md-12">
             <div><h2>Activities</h2></div>
             <div ng-repeat="activity in projects.activities" class="activity">
@@ -68,7 +68,7 @@
                     <li class="col-md-12">{{activity.duties}}</li>
                 </ul>
             </div>
-        </div>
+        </div> -->
 
         <div class="col-md-12">
             <div><h2>Languages Known:</h2></div>
@@ -80,7 +80,7 @@
         </div>
 
         <div class="col-md-12">
-            <div><h2>Tools I'm Familiar With:</h2></div>
+            <div><h2>Tools / Platforms I'm Familiar With:</h2></div>
             <ul>
                 <div ng-repeat="tool in projects.other.tools">
                     <li>{{tool}}</li>
@@ -89,7 +89,7 @@
         </div>
 
         <div class="col-md-12">
-            <div><h2>What I'm Currently Working On:</h2></div>
+            <div><h2>What I'm Currently interested in learning more about:</h2></div>
             <ul>
                 <div ng-repeat="project in projects.other.currently_learning">
                     <li marked="project"></li>

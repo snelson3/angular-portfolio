@@ -1,0 +1,37 @@
+[
+  {
+    "image": "",
+    "link": "https://drive.google.com/file/d/0BxQuvG_kRGSbTjNvRUlRWURCN0U/view?usp=sharing",
+    "link_name": "Paper",
+    "title": "Predicting Spam",
+    "description": "I wrote an undergraduate thesis at the end of college about detecting comment spam. I was provided a year's worth of comments from SoundCloud, and tried to find a good model for predicting if the last comment someone posted got them suspended. I used Scikit-Learn to compare SVM and Linear Regression algorithms, and tried out a number of different features. The comments I had access to were only about 2% spam, so I had to use a different metric than accuracy to decide if I had a good model (I ended up using recall/precision). I found that it was best to use a variety of contextual features, in addition to a bag of words of the comment itself, in order to determine if it was spam or not."
+  },
+  {
+    "image": "",
+    "title": "ELO Prediction",
+    "link": "https://docs.google.com/document/d/1y0cjDaJKvDuFCPfEn6SwIfYMp48uk7mvec_Lh3jRnm4/edit?usp=sharing",
+    "link_name": "Paper",
+    "description": "The final project in my Machine Learning class was applying machine learning techniques to a Kaggle competition, called “Finding Elo”. I used the Scikit-Learn Python library to train an algorithm to be able to predict a Chess player’s ELO after analyzing just one game (normally you have to play a number of games before getting an accurate ELO score). At the end of the competition, my results were synthesized into a research paper.",
+    "source": "https://github.com/snelson3/ELOPrediction"
+  },
+  {
+    "image": "",
+    "title": "ID3 Decision Tree",
+    "description": "The ID3 decision tree algorithm uses the concept of information gain to learn a decision tree for a machine learning problem. The tree is created by splitting on attributes that give 'the most information'. My implementation of the ID3 algorithm is written in Python and creates binary trees.",
+    "source": "https://github.com/snelson3/MLImplementations"
+  },
+
+  {
+    "image": "",
+    "title": "Perceptron",
+    "description": "A perceptron is a machine learning algorithm that works by assigning each attribute a weight, and making a series of predictions on the data. Every time a prediction fails, the weights are updated. My Perceptron is written in Python, and was an assignment in my Machine Learning class.",
+    "source": "https://github.com/snelson3/MLImplementations"
+  },
+
+  {
+    "image": "",
+    "title": "Logistic Regression and Naive Bayes",
+    "description": "Another assignment in my Machine Learning class was to create algorithms for Logistic Regression and Naive Bayes, and see how they compare against the same datset.",
+    "source": "https://github.com/snelson3/MLImplementations"
+  }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "image": "yarnball.png",
+        "title": "Happy Yarnball",
+        "description": "This is a group project made in Unity as part of my Game Development class. I created the first (desert) level in Happy Yarnball, and was the project manager so I made sure everybody else's tasks were completed and wrote the level/menu transition code to tie everything together.",
+        "source": "https://github.com/snelson3/Happy-Yarnball",
+        "link": "https://www.youtube.com/watch?v=FWtkPlAOu5s",
+        "link_name": "Video"
+    },
+    {
+        "title": "Graphics Renderer (triangles)",
+        "source": "https://github.com/snelson3/441Renderer.git",
+        "image": "441renderer.png",
+        "description": "The first project in my CIS 441 Introduction to Graphics Programming course. During the course we learned how to render images to the screen, and by the end of the project had built a rasterizer able to draw a complicated 3D image complete with shading/lighting effects."
+    },
+    {
+        "title": "Duckchat",
+        "image": "",
+        "description": "A fully functional UDP chat client and server, written in C++ to learn about Socket Programming in my Networks class. The client and server were written to work with a custom Duckchat protocol, which was given to us by the professor. In the second part of the class the server was extended to allow server to server communication, by having the servers build a forwarding tree so clients would be able to connect to nearby servers.",
+        "source": "https://github.com/snelson3/snelsoncs432duckchat"
+    }
+]
