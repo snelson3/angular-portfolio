@@ -19,7 +19,7 @@
             "time_worked": "8/2018-Present",
             "location": "Remote",
             "duties": [
-                "Work with small team (from previous job) to build a cloud application for data scientists",
+                "Work with small team (from previous job) to build a cloud application for data scientists to use as their development platform",
                 "Create and manage Helm charts for the product developed by small team, along with charts for 3rd party integrations",
                 "Deploy and maintain Kubernetes clusters in AWS, Azure, and Google environments, for both QA and production uses",
                 "Keep up to date installation instructions, and help internal network teams deploy and maintain our product",
