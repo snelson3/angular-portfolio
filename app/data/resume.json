@@ -19,13 +19,13 @@
             "time_worked": "8/2018-Present",
             "location": "Remote",
             "duties": [
-                "Work with small team (from previous job) to build a cloud application for data scientists to use as their development platform",
-                "Create and manage Helm charts for the product developed by small team, along with charts for 3rd party integrations",
+                "Work in small team (from previous job) to build a cloud application for data scientists to use as their development platform",
+                "Create and manage Helm charts for our data platform, along with charts for 3rd party integrations with tools such as PostgreSQL or SAS",
                 "Deploy and maintain Kubernetes clusters in AWS, Azure, and Google environments, for both QA and production uses",
-                "Keep up to date installation instructions, and help internal network teams deploy and maintain our product",
+                "Keep up to date installation instructions, and help internal networking teams deploy and maintain the platform",
                 "Develop integration with SAML SSO environments, using Shibboleth Service Provider",
-                "Manage Git and Jenkins CI/CD for development of our product, including automated running of unit/integration tests, and scans of docker containers for CVEs",
-                "Manage release cycle of product, making sure all blockers get resolved before releasing new version, and working to get the upgrade rolled out in production environments",
+                "Manage Git and Jenkins CI/CD for development of the platform, including automated container builds, tests, and CVE scans",
+                "Manage release cycle of platform, making sure all blockers get resolved before releasing new version, and working to get the upgrade rolled out in production environments",
                 "Help with fixes and improvements to the python backend when available, mostly around the features related to automated Helm installations of different tools"
             ]
         },
@@ -63,7 +63,7 @@
               [
                 "Manage and close the library at night when full time staff are not working",
                 "Assist library patrons with checking materials in and out of the library",
-                "Lead other students in shelving and maintaining the library’s bookshelves"
+                "Lead other students in shelving and maintaining the library's bookshelves"
               ]
           }
     ],
@@ -77,7 +77,7 @@
         {
             "name": "Bouldering / Rock Climbing",
             "date": "2021",
-            "duties": "My newest hobby, I have fallen in love with the purity involved in climbing."
+            "duties": "My newest hobby, I love the way climbing pushes me to learn more about my physical capabilities, while introducing me to amazing people."
         },
         {
             "name": "Developer for Kingdom Hearts 2 Randomizer",
@@ -105,7 +105,7 @@
             "Java"
         ],
         "currently_learning": [
-            "Reverse Engineering: Continuing my various projects modding Kingdom Hearts 2 will naturally lead me to gaining more reverse engineering skills.",
+            "Reverse Engineering: I have a variety of goals related to modding Kingdom Hearts 2 that require learning more about reverse engineering.",
             "Go: Writing an [idle game](https://github.com/snelson3/card-idler-go) to learn Go in a freeform, low stress way.",
             "Rust: Looking for time and an opportunity to learn Rust, potentially a Chip8 or Gameboy emulator."
         ],
@@ -116,9 +116,9 @@
             "Jenkins",
             "Git",
             "Gitlab CI/CD",
-            "AWS - Route53, EC2, EKS, S3, IAM, VPC, SES, maybe other services?",
-            "Azure - Active Directory, AKS, Networking, Blob Storage, other services?",
-            "Google Cloud - GKE? Maybe should leave off",
+            "AWS - Route53, EC2, EKS, S3, IAM, VPC, SES",
+            "Azure - Active Directory, AKS, Networking, Blob Storage",
+            "Google Cloud - GKE",
             "Saml SSO 2.0 Protocol",
             "Shibboleth, SP and IDP",
             "Unity"

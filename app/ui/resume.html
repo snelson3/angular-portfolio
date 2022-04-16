@@ -58,19 +58,6 @@
         </div>
 
         <div class="col-md-12">
-            <div><h2>Activities</h2></div>
-            <div ng-repeat="activity in projects.activities" class="activity">
-                <b><i>
-                    <div class="col-md-6">{{activity.name}}</div>
-                    <div class="col-md-6">{{activity.date}}</div>
-                </i></b>
-                <ul>
-                    <li class="col-md-12">{{activity.duties}}</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="col-md-12">
             <div><h2>Languages Known:</h2></div>
             <ul>
                 <div ng-repeat="language in projects.other.languages_known">
@@ -89,12 +76,25 @@
         </div>
 
         <div class="col-md-12">
-            <div><h2>What I'm Currently interested in learning more about:</h2></div>
+            <div><h2>What I'm currently interesting in exploring:</h2></div>
             <ul>
                 <div ng-repeat="project in projects.other.currently_learning">
                     <li marked="project"></li>
                 </div>
             </ul>
+        </div>
+
+        <div class="col-md-12">
+            <div><h2>Activities</h2></div>
+            <div ng-repeat="activity in projects.activities" class="activity">
+                <b><i>
+                    <div class="col-md-6">{{activity.name}}</div>
+                    <div class="col-md-6">{{activity.date}}</div>
+                </i></b>
+                <ul>
+                    <li class="col-md-12">{{activity.duties}}</li>
+                </ul>
+            </div>
         </div>
 
     </div>

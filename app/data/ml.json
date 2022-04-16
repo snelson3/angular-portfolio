@@ -11,7 +11,7 @@
     "title": "ELO Prediction",
     "link": "https://docs.google.com/document/d/1y0cjDaJKvDuFCPfEn6SwIfYMp48uk7mvec_Lh3jRnm4/edit?usp=sharing",
     "link_name": "Paper",
-    "description": "The final project in my Machine Learning class was applying machine learning techniques to a Kaggle competition, called “Finding Elo”. I used the Scikit-Learn Python library to train an algorithm to be able to predict a Chess player’s ELO after analyzing just one game (normally you have to play a number of games before getting an accurate ELO score). At the end of the competition, my results were synthesized into a research paper.",
+    "description": "The final project in my Machine Learning class was applying machine learning techniques to a Kaggle competition, called “Finding Elo”. I used the Scikit-Learn Python library to train an algorithm to be able to predict a Chess player's ELO after analyzing just one game (normally you have to play a number of games before getting an accurate ELO score). At the end of the competition, my results were synthesized into a research paper.",
     "source": "https://github.com/snelson3/ELOPrediction"
   },
   {
