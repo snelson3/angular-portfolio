@@ -15,8 +15,21 @@
     "work_experience": [
         {
             "company_name": "Accenture",
-            "position": "Software Product Business Architecture Associate Manager",
-            "time_worked": "8/2018-Present",
+            "position": "Software Product Business Architecture Associate Manager - DevOps COE Member",
+            "time_worked": "11/2022-Present",
+            "location": "Remote",
+            "duties": [
+                "Work in a Center of Excellence to provide DevOps support to different internal product teams",
+                "Help manage internal Prisma Cloud account for Docker Registry scanning",
+                "Lead the DevOps team for a productization effort generalizing a client specific application, involving setting up AWS infrastructure across multiple regions",
+                "Worked in a small team to perform a vendor analysis of different generative AI coding assistants (Copilot, Tabnine, CodeWhisperer)",
+                "Continuing research into use cases for generative AI as well as developing proof of concepts"
+            ]
+        },
+        {
+            "company_name": "Accenture",
+            "position": "Software Product Business Architecture Associate Manager - DevOps Lead",
+            "time_worked": "8/2018-11/2022",
             "location": "Remote",
             "duties": [
                 "Work in small team (from previous job) to build a cloud application for data scientists to use as their development platform",
@@ -106,8 +119,8 @@
         ],
         "currently_learning": [
             "Reverse Engineering: I have a variety of goals related to modding Kingdom Hearts 2 that require learning more about reverse engineering.",
-            "Go: Writing an [idle game](https://github.com/snelson3/card-idler-go) to learn Go in a freeform, low stress way.",
-            "Rust: Looking for time and an opportunity to learn Rust, potentially a Chip8 or Gameboy emulator."
+            "Rust: Looking for time and an opportunity to learn Rust, potentially a Chip8 or Gameboy emulator.",
+            "Go: Writing an [idle game](https://github.com/snelson3/card-idler-go) to learn Go in a freeform, low stress way."
         ],
         "tools": [
             "Docker",
@@ -116,8 +129,8 @@
             "Jenkins",
             "Git",
             "Gitlab CI/CD",
-            "AWS - Route53, EC2, EKS, S3, IAM, VPC, SES",
-            "Azure - Active Directory, AKS, Networking, Blob Storage",
+            "AWS - Route53, EC2, EKS, S3, IAM, VPC, AppSync, Lambda, Glue, SES",
+            "Azure - Active Directory, AKS, Networking, Blob Storage, OpenAI",
             "Google Cloud - GKE",
             "Saml SSO 2.0 Protocol",
             "Shibboleth, SP and IDP",
